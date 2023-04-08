@@ -637,6 +637,15 @@ export function Chat(props: {
                       }}
                     >
                       <Markdown content={message.content} />
+                      <p>
+                        广告:{" "}
+                        <a
+                          target="_blank"
+                          href="https://mp.weixin.qq.com/s/QK0ey_FYkKEuHyCER_buOQ"
+                        >
+                          购买GPT账号，搭建同款网站加V：aio7699
+                        </a>
+                      </p>
                     </div>
                   )}
                 </div>

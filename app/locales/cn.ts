@@ -3,7 +3,8 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页输入访问密码。",
+    Unauthorized:
+      "未授权状态，关注公众号《程序员的自白书》发送关键字‘授权码’获取，请勿滥用，获取后请在设置页输入授权码即可使用。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -116,12 +117,12 @@ const cn = {
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
-      NoAccess: "输入 API Key 或访问密码查看余额",
+      NoAccess: "输入 API Key 或授权码查看余额",
     },
     AccessCode: {
-      Title: "访问密码",
+      Title: "授权码",
       SubTitle: "现在是未授权访问状态",
-      Placeholder: "请输入访问密码",
+      Placeholder: "请输入授权码",
     },
     Model: "模型 (model)",
     Temperature: {
